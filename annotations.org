@@ -112,3 +112,10 @@ https://events.ccc.de/congress/2015/Fahrplan/events/7249.html
 
 ** Max
 Spannendes Thema, einige Highlights (originale Kommentare etc.) leider von vielen Allgemeinplätzen umgeben und deshalb nicht wirklich sehenswert.
+
+* goto fail;
+https://events.ccc.de/congress/2015/Fahrplan/events/7438.html
+
+** Max
+Bester Talk über SSL/TLS den ich je gehört habe.
+Guter Überblick über Funktionsweise und über diverse Angriffe.
