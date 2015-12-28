@@ -1,0 +1,47 @@
+Media Footage: https://media.ccc.de/b/congress/2015
+
+Schedule: https://events.ccc.de/congress/2015/Fahrplan/schedule/0.html
+
+* What does Big Brother see, while he is watching?
+- https://events.ccc.de/congress/2015/Fahrplan/events/7209.html
+- http://c3media.vsos.ethz.ch/congress/2015/h264-hd/32c3-7209-en-What_does_Big_Brother_see_while_he_is_watching_hd.mp4
+
+** Alain
+
+Simon Menner shows a great collection of pictures from the best
+treasure trove that is accessible to us from surveillance
+states. He tells a good story on how absurd and dangerous surveillance
+is at the same time.
+
+It's also curious to hear that only footage from eastern countries is
+available, the BND only released 14 totally irrelevant pictures of all
+of the cold war (something like a cork screw...). So of course the
+easter states totally look illegal compared to just nothing.
+
+* Beyond your cable modem 
+- https://events.ccc.de/congress/2015/Fahrplan/events/7133.html
+- https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem#video
+
+** Alain
+Very fun and at the same time horrific talk. Basically everyone
+on a cable network can easily gain access to a root shell on everyone
+elses cable modem. Not only that, you can also listen in to other
+peoples VOIP calls or call from somebody eleses number.
+
+Horrifying, because it's so simple and extremely powerful.
+
+In the questions, it's also very interesting at 30:15 when he's being
+asked an easy question and the guy gets very uneasy and says: "The
+problem is the law. I cannot tell you about ....".
+
+* Netzpolitik in der Schweiz
+- https://events.ccc.de/congress/2015/Fahrplan/events/7205.html
+- https://media.ccc.de/v/32c3-7205-netzpolitik_in_der_schweiz_2015_16#video&t=1779
+
+** Alain
+
+Sehr langweilig vorgetragen. Die Sprecher nutzen gerne Wörter und
+Akronyme rechtlicher Natur ohne sie einzuführen oder zu
+erklären. Primär eine Erklärung des aktuellen Stands und den neuen
+Gesetzen, die alsbald kommen können. Dahingehend inhaltlich durchaus
+interessant.
