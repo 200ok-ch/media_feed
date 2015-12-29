@@ -3,7 +3,8 @@ Media Footage: https://media.ccc.de/b/congress/2015
 Schedule: https://events.ccc.de/congress/2015/Fahrplan/schedule/0.html
 
 * Media overview
-Day 1: 
+Day 1: https://netzpolitik.org/2015/netzrueckblick-32c3-der-erste-tag/
+
 Day 2: http://np.vu/n/109710
 
 * What does Big Brother see, while he is watching?
@@ -99,7 +100,7 @@ https://events.ccc.de/congress/2015/Fahrplan/events/7196.html
 ** Max
 Spannende Einblicke in die Funktionsweise der great Firewall, die Auswirkungen und was dies Allgemein für Zensur bedeuten kann.
 
-** Ein Abgrund von Landesverat
+* Ein Abgrund von Landesverat
 https://events.ccc.de/congress/2015/Fahrplan/events/7135.html
 
 ** Max
@@ -107,7 +108,7 @@ Die Landesverat Ermitlungen gegen das Blog netzpolitik.org haben im Sommer 2015 
 Der Talk ist eine humoristische Aufarbeitung der Erkenntnisse. 
 Eher ein post mortem da bspw. auf dem Camp 2015 das Thema schon gross debattiert wurde.
 
-** Profiling (In)justice
+* Profiling (In)justice
 'https://events.ccc.de/congress/2015/Fahrplan/events/7264.html' 
 
 ** Max 
@@ -139,6 +140,7 @@ Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehe
 
 * The Ultimate Amiga 500 Talk
 - https://media.ccc.de/v/32c3-7468-the_ultimate_amiga_500_talk
+
 ** Alain
 
 I was able to watch maybe the first ten minutes and then started
@@ -147,3 +149,35 @@ clapping. At least there was one question...
 
 If you want a history lesson, go for it. But be prepared for some
 history boredom.
+
+* „Nach bestem Wissen und Gewissen“ – Floskeln in der Politik 
+
+** Max
+Ganz nette Aufsführungen zu Sprache und mit ihr verbundem oder eben auch nicht verbundenem Informationsgehalt.
+An einigen stellen gefühlt eher esoterisch und wichtige Aspekte der politischen Rede vernachlässigend.
+Ein grobes Wissen über wichtige Themen der dt. Politik in 2015 wird benötigt.
+
+* Graphs, Drones & Phones - The role of social-graphs for Drones in the War on Terror. 
+
+** Max
+Übel. Ganz übel. Sehr sehenswerte Ausführungen wie ein bisschen Graphentheorie zum Abschuss von Hellfire-Raketen und Co. führt und wie wir auch sonst alle nur Knoten mit mehr oder weniger Kanten sind. Stimmt eher nachdenklich - gelinde gesagt.
+
+
+* State of the Onion
+
+** Max
+Alle Jahre wieder. Das Tor Team schwört eine Begeisterte Menge von > 2000 Nerds auf Freiheit und Anonymisierung ein. Indoktrinierung für die verschiedenen Werte. Besonders spannend: eine radikale, militante Bibliothekarin erzählt mitreissend über den Einstieg von US-Amerikanischen Bibliothekaren in die Anonymisierungsszene.
+
+* Check your privileges!
+
+** Max
+Sehr technischer, fundierter Talk wie man auf system programming level Applikationen möglichst sicher machen kann. 
+Hinreichende Kentnisse in C werden implizit vorausgesetzt. Folien lesen lohnt sich ;).
+
+
+* Ten years after ‚We Lost The War‘
+
+** Max
+Wir haben den Krieg verloren, die Revolution wird kommen - warum und was können wir machen um unsere individuellen Leben dennoch angenhm zu gestalten? 
+In Teilen sehr dystopisch aber eventuell motivierend sich auf die Mitmenschen und das was wirklich zählt zu besinnen? Stimmt sehr nachdenklich - keine gute Idee für einsame Abende.
+
