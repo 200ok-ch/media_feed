@@ -2,7 +2,7 @@ Media Footage: https://media.ccc.de/b/congress/2015
 
 Schedule: https://events.ccc.de/congress/2015/Fahrplan/schedule/0.html
 
-** Media overview
+* Media overview
 Day 1: 
 Day 2: http://np.vu/n/109710
 
@@ -131,3 +131,13 @@ https://events.ccc.de/congress/2015/Fahrplan/events/7273.html
 ** Max
 Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen.
 
+* The Ultimate Amiga 500 Talk
+- https://media.ccc.de/v/32c3-7468-the_ultimate_amiga_500_talk
+** Alain
+
+I was able to watch maybe the first ten minutes and then started
+scrolling to the end. The end was like the talk, abrupt and no
+clapping. At least there was one question...
+
+If you want a history lesson, go for it. But be prepared for some
+history boredom.
