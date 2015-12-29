@@ -2,6 +2,10 @@ Media Footage: https://media.ccc.de/b/congress/2015
 
 Schedule: https://events.ccc.de/congress/2015/Fahrplan/schedule/0.html
 
+* Media overview
+Day 1: 
+Day 2: http://np.vu/n/109710
+
 * What does Big Brother see, while he is watching?
 - https://events.ccc.de/congress/2015/Fahrplan/events/7209.html
 - http://c3media.vsos.ethz.ch/congress/2015/h264-hd/32c3-7209-en-What_does_Big_Brother_see_while_he_is_watching_hd.mp4
@@ -62,14 +66,14 @@ culture. Interesting concepts on how to visualize the un-seeable.
 No tangible value, however an artistic talk that I enjoyed.
 
 * NSA-Untersuchungsausschuss: Zwischen Aufklärungswillen und Mauern aus Schweigen
-'https://events.ccc.de/congress/2015/Fahrplan/events/7228.html'
+https://events.ccc.de/congress/2015/Fahrplan/events/7228.html
 
 ** Max
 Bei Interesse an der deutschen Aufarbeitung von 5-Eyes etc. super spannend.
 Aus schweizer Sicht wohl eher nicht sooo sehr.
 
 * PQCHacks - A gentle introduction to post-quantum cryptography
-'https://events.ccc.de/congress/2015/Fahrplan/events/7210.html'
+https://events.ccc.de/congress/2015/Fahrplan/events/7210.html
 
 ** Max
 Super spannender Vortrag von zwei Koryphäen auf dem Bereich. Es braucht zwei
@@ -77,33 +81,69 @@ etwa zwei Stunden Konzentration sollte aber mit einem grundlegenden Interesse
 an der Materie gut verständlich sein.
 
 * Shopshifting - The potential for payment system abuse
-'https://events.ccc.de/congress/2015/Fahrplan/events/7368.html'
+https://events.ccc.de/congress/2015/Fahrplan/events/7368.html
 
 ** Max
 Deutsche EC-Karten (Maestro Äquivalent) Terminals sind auf mehreren Leveln vollkommen kaputt.
 Der Talk zeigt (grösstenteils) super Aufbereitet wie man die verwendeten Sicherheitslücken zum Schaden von Kunden und Händlern ausnutzen kann und was falsch lief.
 
 * Running your own 3G/3.5G network
-'https://events.ccc.de/congress/2015/Fahrplan/events/7412.html'
+https://events.ccc.de/congress/2015/Fahrplan/events/7412.html
 
 ** Max
 Trocken. Sehr sehr Trocken. Sicher spannend für Experten und der Typ kennt sich aus ... nix für Leute, die mit der Materie nicht vertraut sind.
 
 * How the Great Firewall discovers hidden circumvention servers
-'https://events.ccc.de/congress/2015/Fahrplan/events/7196.html'
+https://events.ccc.de/congress/2015/Fahrplan/events/7196.html
 
 ** Max
 Spannende Einblicke in die Funktionsweise der great Firewall, die Auswirkungen und was dies Allgemein für Zensur bedeuten kann.
 
 ** Ein Abgrund von Landesverat
-'https://events.ccc.de/congress/2015/Fahrplan/events/7135.html'
+https://events.ccc.de/congress/2015/Fahrplan/events/7135.html
 
 ** Max
 Die Landesverat Ermitlungen gegen das Blog netzpolitik.org haben im Sommer 2015 für einige Aufregung in Deutschland gesorgt. 
 Der Talk ist eine humoristische Aufarbeitung der Erkenntnisse. 
+Eher ein post mortem da bspw. auf dem Camp 2015 das Thema schon gross debattiert wurde.
 
 ** Profiling (In)justice
 'https://events.ccc.de/congress/2015/Fahrplan/events/7264.html' 
 
 ** Max 
 Wurde mir empfohlen - will ich mal noch sehen.
+
+* Lifting the Fog on Red Star OS
+
+** Max
+Hat ein rechtes Medienecho erhalten. Klingt noch spannend...
+
+* Das Zahnrad aus Fleisch
+https://events.ccc.de/congress/2015/Fahrplan/events/7249.html
+
+** Max
+Gutes Thema, einige Highlights (originale Kommentare etc.) leider von vielen Allgemeinplätzen umgeben und deshalb nicht wirklich sehenswert.
+
+* goto fail;
+https://events.ccc.de/congress/2015/Fahrplan/events/7438.html
+
+** Max
+Bester Talk über SSL/TLS den ich bisher gehört habe.
+Guter Überblick über Funktionsweise und über diverse Angriffe.
+
+* Unpatchable - living with a vulnerable implanted device 
+https://events.ccc.de/congress/2015/Fahrplan/events/7273.html
+
+** Max
+Intensives Echo in Medien und sozialen Netzwerken - will ich definitiv noch sehen.
+
+* The Ultimate Amiga 500 Talk
+- https://media.ccc.de/v/32c3-7468-the_ultimate_amiga_500_talk
+** Alain
+
+I was able to watch maybe the first ten minutes and then started
+scrolling to the end. The end was like the talk, abrupt and no
+clapping. At least there was one question...
+
+If you want a history lesson, go for it. But be prepared for some
+history boredom.
