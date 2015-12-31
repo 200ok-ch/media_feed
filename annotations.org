@@ -181,3 +181,7 @@ Hinreichende Kentnisse in C werden implizit vorausgesetzt. Folien lesen lohnt si
 Wir haben den Krieg verloren, die Revolution wird kommen - warum und was können wir machen um unsere individuellen Leben dennoch angenhm zu gestalten? 
 In Teilen sehr dystopisch aber eventuell motivierend sich auf die Mitmenschen und das was wirklich zählt zu besinnen? Stimmt sehr nachdenklich - keine gute Idee für einsame Abende.
 
+* Computational Meta Psychology (Joscha Bach)
+
+** Tomaso
+Nachdenken darüber wie wir funktionieren, wie wir lernen. Empfohlen.
