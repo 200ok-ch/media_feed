@@ -2,6 +2,8 @@ Media Footage: https://media.ccc.de/b/congress/2015
 
 Schedule: https://events.ccc.de/congress/2015/Fahrplan/schedule/0.html
 
+Reviews of the 2014 31c3: https://github.com/tpo/31c3_talks_annotations/
+
 * Media overview
 Day 1: https://netzpolitik.org/2015/netzrueckblick-32c3-der-erste-tag/
 
