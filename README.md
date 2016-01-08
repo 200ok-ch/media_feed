@@ -23,4 +23,4 @@ Edit `media.yml` to add items to the feed.
 
 Subscribe to
 
-    http://...
+    https://raw.githubusercontent.com/twohundredok/media_feed/master/feed.xml
