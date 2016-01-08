@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Fri, 08 Jan 2016 22:41:50 +0100</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2016 22:41:50 +0100</lastBuildDate>
+    <pubDate>Fri, 08 Jan 2016 22:48:06 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2016 22:48:06 +0100</lastBuildDate>
     <managingEditor>
       info@200ok.ch (200ok)
     </managingEditor>
@@ -61,5 +61,24 @@ phil: Performed by the same woman who did the Google Nest talk on Republica 2014
       </item>
     
       
+      <item>
+        <title>Rowhammer.js: Root privileges for web apps?</title>
+        <description>&quot;Insanity: doing the same thing over and over again and expecting different results.&quot;  Albert Einstein - Who did not live long enough to see Rowhammer
+Recent studies have found that repeated accesses to DRAM rows can cause random bit flips, resulting in the so called Rowhammer vulnerability. We present Rowhammer.js, the first remote software-induced hardware-fault attack, from JavaScript. We also extend our presentation with an overview of cache side-channel attacks, that use the same technique to evict data from the cache.
+phil: Frightening bit flipping. Very in depth.</description>
+        <link>https://media.ccc.de/v/32c3-7197-rowhammer_js_root_privileges_for_web_apps</link>
+        <guid isPermaLink="true">https://media.ccc.de/v/32c3-7197-rowhammer_js_root_privileges_for_web_apps</guid>
+        <pubDate>08 Jan 2016 18:28 GMT</pubDate>
+        <itunes:subtitle>Rowhammer.js: Root privileges for web apps?</itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <itunes:author></itunes:author>
+        <itunes:image href="http://200ok.ch/media_feed.png"/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7197-en-Rowhammerjs_Root_privileges_for_web_apps.mp4"
+                   length="143094416"
+                   type="video/mp4"/>
+      </item>
+    
   </channel>
 </rss>

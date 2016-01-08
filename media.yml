@@ -20,8 +20,11 @@ feed:
       on Republica 2014.
 
   - title: 'Rowhammer.js: Root privileges for web apps?'
+    published: 08 Jan 2016 18:28 GMT
     subtitle: A tale of fault attacks on DRAM and attacks on CPU caches
     media_url: http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7197-en-Rowhammerjs_Root_privileges_for_web_apps.mp4
+    media_type: video/mp4
+    media_length: 143094416
     web_url: https://media.ccc.de/v/32c3-7197-rowhammer_js_root_privileges_for_web_apps
     description: >-
       "Insanity: doing the same thing over and over again and
