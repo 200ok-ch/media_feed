@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title><%= data.meta.title %></title>
+    <description><%= data.meta.description %></description>
+    <link><%= data.meta.link %></link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language><%= data.meta.language %></language>
+    <generator>media feed build script</generator>
+    <pubDate><%= now %></pubDate>
+    <lastBuildDate><%= now %></lastBuildDate>
+    <managingEditor>
+      <%= "#{data.meta.contact.email} (#{data.meta.contact.name})" %>
+    </managingEditor>
+    <webMaster>
+      <%= "#{data.meta.contact.email} (#{data.meta.contact.name})" %>
+    </webMaster>
+    <itunes:owner>
+      <itunes:email><%= data.meta.contact.email %></itunes:email>
+      <itunes:name><%= data.meta.contact.name %></itunes:name>
+    </itunes:owner>
+    <image>
+      <url><%= data.meta.image_url %></url>
+      <title><%= data.meta.title %></title>
+      <link><%= data.meta.link %></link>
+      <description><%= data.meta.description %></description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary><%= data.meta.description %></itunes:summary>
+    <itunes:author><%= data.meta.author %></itunes:author>
+    <itunes:image href="<%= data.meta.image_url %>"/>
+    <itunes:explicit>Yes</itunes:explicit>
+    <itunes:keywords><%= data.meta.keywords * ',' %></itunes:keywords>
+    <% data.meta.categories.each do |category| %>
+      <itunes:category text="<%= category %>"/>
+    <% end %>
+    <% data.feed.each do |item| %>
+      <% next unless item.published %>
+      <item>
+        <title><%= item.title %></title>
+        <description><%= CGI.escapeHTML(item.description) %></description>
+        <link><%= item.web_url %></link>
+        <guid isPermaLink="true"><%= item.web_url %></guid>
+        <pubDate><%= item.published %></pubDate>
+        <itunes:subtitle><%= item.title %></itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <itunes:author><%= item.speakers %></itunes:author>
+        <itunes:image href="<%= data.meta.image_url %>"/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords><%= data.meta.keywords * ',' %></itunes:keywords>
+        <enclosure url="<%= item.media_url %>"
+                   length="<%= item.media_length %>"
+                   type="<%= item.media_type %>"/>
+      </item>
+    <% end %>
+  </channel>
+</rss>
