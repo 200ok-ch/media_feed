@@ -1,3 +1,5 @@
 #!/bin/sh
 
 ./build.rb
+
+git add feed.xml
