@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>200ok Media Feed</title>
+    <description>A media feed curated by the people at 200ok and friends.
+</description>
+    <link>http://github.com/200ok/media_feed</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>media feed build script</generator>
+    <pubDate>Fri, 08 Jan 2016 22:37:51 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2016 22:37:51 +0100</lastBuildDate>
+    <managingEditor>
+      info@200ok.ch (200ok)
+    </managingEditor>
+    <webMaster>
+      info@200ok.ch (200ok)
+    </webMaster>
+    <itunes:owner>
+      <itunes:email>info@200ok.ch</itunes:email>
+      <itunes:name>200ok</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>http://200ok.ch/media_feed.png</url>
+      <title>200ok Media Feed</title>
+      <link>http://github.com/200ok/media_feed</link>
+      <description>A media feed curated by the people at 200ok and friends.
+</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>A media feed curated by the people at 200ok and friends.
+</itunes:summary>
+    <itunes:author>The people at 200ok and friends</itunes:author>
+    <itunes:image href="http://200ok.ch/media_feed.png"/>
+    <itunes:explicit>Yes</itunes:explicit>
+    <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
+    
+      <itunes:category text="Technology"/>
+    
+      <itunes:category text="Educational Technology"/>
+    
+    
+      
+      <item>
+        <title>Intelexit</title>
+        <description>Giant billboard vans, drone-operated leaflet drops over an NSA building and calls to secret service agents, Intelexit explores all routes to reach out to secret service agents and convince them to follow their conscience and quit their jobs. We will take a look at the highlights of the campaign from 2015 and what's around the corner for 2016.</description>
+        <link>https://media.ccc.de/v/32c3-7426-intelexit</link>
+        <guid isPermaLink="true">https://media.ccc.de/v/32c3-7426-intelexit</guid>
+        <pubDate>08 Jan 2016 18:28 GMT</pubDate>
+        <itunes:subtitle>Intelexit</itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <itunes:author></itunes:author>
+        <itunes:image href="http://200ok.ch/media_feed.png"/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
+        <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7426-en-de-Intelexit_sd.mp4"
+                   length="143094416"
+                   type="video/mp4"/>
+      </item>
+    
+      
+  </channel>
+</rss>

@@ -15,9 +15,9 @@ feed:
       them to follow their conscience and quit their jobs. We will
       take a look at the highlights of the campaign from 2015 and
       what's around the corner for 2016.
-    comments:
-      Performed by the same woman who did the Google Nest talk on
-      Republica 2014. ~phil
+
+      phil: Performed by the same woman who did the Google Nest talk
+      on Republica 2014.
 
   - title: 'Rowhammer.js: Root privileges for web apps?'
     subtitle: A tale of fault attacks on DRAM and attacks on CPU caches
@@ -35,8 +35,8 @@ feed:
       extend our presentation with an overview of cache side-channel
       attacks, that use the same technique to evict data from the
       cache.
-    comments:
-      Freightening bit flipping. Very in depth. ~phil
+
+      phil: Frightening bit flipping. Very in depth.
 
 
 template: template_rss.xml.erb
