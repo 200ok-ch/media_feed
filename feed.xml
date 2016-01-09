@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Sat, 09 Jan 2016 14:41:53 +0100</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 14:41:53 +0100</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 15:01:07 +0100</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 15:01:07 +0100</lastBuildDate>
     <managingEditor>
       info@200ok.ch (200ok)
     </managingEditor>
@@ -40,6 +40,28 @@
     
       <itunes:category text="Educational Technology"/>
     
+    
+      
+      <item>
+        <title>Beyond your cable modem - How not to do DOCSIS networks</title>
+        <description>Did you ever want to have access to a few hundred thousand network end points? Or a few hundred thousand phone numbers? A short look behind the curtains of how not to do network security.
+Alain: Very fun and at the same time horrific talk. Basically everyone on a cable network can easily gain access to a root shell on everyone elses cable modem. Not only that, you can also listen in to other peoples VOIP calls or call from somebody eleses number.
+Horrifying, because it's so simple and extremely powerful.
+In the questions, it's also very interesting at 30:15 when he's being asked an easy question and the guy gets very uneasy and says: &quot;The problem is the law. I cannot tell you about ....&quot;.
+Phil: Best presentation of 32c3 so far!</description>
+        <link>https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem</link>
+        <guid isPermaLink="true">https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem</guid>
+        <pubDate>Sat, 09 Jan 2016 14:54:41 +0100</pubDate>
+        <itunes:subtitle>Beyond your cable modem - How not to do DOCSIS networks</itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <itunes:author></itunes:author>
+        <itunes:image href="https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png"/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
+        <enclosure url="http://c3media.vsos.ethz.ch/congress/2015/h264-sd/32c3-7133-en-de-Beyond_your_cable_modem_sd.mp4"
+                   length="196247310"
+                   type="video/mp4"/>
+      </item>
     
       
       <item>

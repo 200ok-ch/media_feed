@@ -12,10 +12,10 @@ require 'ostruct'
 def curl(url)
   output = %x[ curl -s --head --location '#{url}' ]
   md = output.match(/Location: (.*)\n/)
-  location = md ? md[1] : url
-  Openstruct.new({
+  location = md ? md[1].chomp : url
+  OpenStruct.new({
     length: output.match(/Content-Length: (.*)\n/)[1].chomp,
-    type: output.match(/Content-Type: (.*)\n/)[1].chomp,
+    type: output.scan(/Content-Type: (.*)\n/).last[0].chomp,
     title: url.split('/').last.split('.').tap { |a| a.pop } * '.',
     now: Time.now.rfc2822,
     url: location
