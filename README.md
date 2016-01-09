@@ -10,6 +10,7 @@
 The 200ok media feed is a podcast feed curated by the people at 200ok
 and friends.
 
+
 Setup
 -----
 
@@ -37,3 +38,12 @@ With the podcatcher of your choice subscribe to
     https://raw.githubusercontent.com/twohundredok/media_feed/master/feed.xml
 
 ![qrcode: subcribe to feed](https://raw.githubusercontent.com/twohundredok/media_feed/master/qrcode.png)
+
+
+Requirements
+------------
+
+So far you only need
+
+* ruby
+* curl
