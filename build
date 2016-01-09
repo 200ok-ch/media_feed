@@ -2,7 +2,7 @@
 
 # USAGE
 #
-#   build.rb [input] [template] [output]
+#   build [input] [template] [output]
 #
 
 require 'yaml'
@@ -32,15 +32,4 @@ now = Time.now.rfc2822
 
 File.open(ARGV[2] || data.target, 'w') do |f|
   f.puts ERB.new(template).result
-end
-
-__END__
-# Notes
-
-def curl(url)
-  output = %x[ curl -s --head --location '#{url}' ]
-  {
-    length: output.match(/Content-Length: (.*)\n/)[1],
-    url: output.match(/Location: (.*)\n/)[1] || url
-  }
 end

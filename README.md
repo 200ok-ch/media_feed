@@ -13,7 +13,7 @@ and friends.
 Setup
 -----
 
-Run once after cloning the repo to setup pre commit hook
+Run once after cloning the repo to setup the pre commit hook
 
     ./setup.sh
 
@@ -21,14 +21,18 @@ Run once after cloning the repo to setup pre commit hook
 Usage
 -----
 
-Edit `media.yml` to add items to the feed.
+Use `add` to add new entries to `media.yml`, e.g.
 
-Entries with the field `published` empty or missing are omitted when
-generating the feed.
+    ./add <url-to-media-file>
+
+Then edit `media.yml` to complete missing details.
+
+(Entries with the field `published` empty or missing are omitted when
+generating the feed.)
 
 The pre commit hook will update `feed.xml` automatically.
 
-Subscribe to
+With the podcatcher of your choice subscribe to
 
     https://raw.githubusercontent.com/twohundredok/media_feed/master/feed.xml
 

@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+
+# USAGE
+#
+#   add <url>
+#
+
+require 'erb'
+require 'time'
+require 'ostruct'
+
+def curl(url)
+  output = %x[ curl -s --head --location '#{url}' ]
+  md = output.match(/Location: (.*)\n/)
+  location = md ? md[1] : url
+  Openstruct.new({
+    length: output.match(/Content-Length: (.*)\n/)[1].chomp,
+    type: output.match(/Content-Type: (.*)\n/)[1].chomp,
+    title: url.split('/').last.split('.').tap { |a| a.pop } * '.',
+    now: Time.now.rfc2822,
+    url: location
+  })
+end
+
+meta = curl(ARGV[0])
+
+# TODO ask for missing details
+
+scope = meta.instance_eval { binding }
+result = ERB.new(DATA.read).result(scope)
+
+media = File.read('media.yml')
+media.sub!("feed:\n", result)
+File.open('media.yml', 'w') { |f| f.print(media) }
+
+puts 'Now edit `media.yml` to complete the missing details.'
+
+__END__
+feed:
+  - title: <%= title %>
+    published: <%= now %>
+    media_url: <%= url %>
+    media_length: <%= length %>
+    media_type: <%= type %>
+    web_url: TODO
+    description: >-
+      TODO
