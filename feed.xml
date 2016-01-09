@@ -4,12 +4,12 @@
     <title>200ok Media Feed</title>
     <description>A media feed curated by the people at 200ok and friends.
 </description>
-    <link>http://github.com/200ok/media_feed</link>
+    <link>http://github.com/twohundredok/media_feed</link>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Fri, 08 Jan 2016 22:48:06 +0100</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2016 22:48:06 +0100</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 13:59:14 +0100</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 13:59:14 +0100</lastBuildDate>
     <managingEditor>
       info@200ok.ch (200ok)
     </managingEditor>
@@ -21,9 +21,9 @@
       <itunes:name>200ok</itunes:name>
     </itunes:owner>
     <image>
-      <url>http://200ok.ch/media_feed.png</url>
+      <url>https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png</url>
       <title>200ok Media Feed</title>
-      <link>http://github.com/200ok/media_feed</link>
+      <link>http://github.com/twohundredok/media_feed</link>
       <description>A media feed curated by the people at 200ok and friends.
 </description>
       <width>144</width>
@@ -32,7 +32,7 @@
     <itunes:summary>A media feed curated by the people at 200ok and friends.
 </itunes:summary>
     <itunes:author>The people at 200ok and friends</itunes:author>
-    <itunes:image href="http://200ok.ch/media_feed.png"/>
+    <itunes:image href="https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png"/>
     <itunes:explicit>Yes</itunes:explicit>
     <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
     
@@ -52,7 +52,7 @@ phil: Performed by the same woman who did the Google Nest talk on Republica 2014
         <itunes:subtitle>Intelexit</itunes:subtitle>
         <itunes:summary></itunes:summary>
         <itunes:author></itunes:author>
-        <itunes:image href="http://200ok.ch/media_feed.png"/>
+        <itunes:image href="https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png"/>
         <itunes:explicit>Yes</itunes:explicit>
         <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
         <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-sd/32c3-7426-en-de-Intelexit_sd.mp4"
@@ -72,7 +72,7 @@ phil: Frightening bit flipping. Very in depth.</description>
         <itunes:subtitle>Rowhammer.js: Root privileges for web apps?</itunes:subtitle>
         <itunes:summary></itunes:summary>
         <itunes:author></itunes:author>
-        <itunes:image href="http://200ok.ch/media_feed.png"/>
+        <itunes:image href="https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png"/>
         <itunes:explicit>Yes</itunes:explicit>
         <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
         <enclosure url="http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7197-en-Rowhammerjs_Root_privileges_for_web_apps.mp4"

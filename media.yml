@@ -50,12 +50,12 @@ meta:
   description: |
     A media feed curated by the people at 200ok and friends.
   author: The people at 200ok and friends
-  link: http://github.com/200ok/media_feed
+  link: http://github.com/twohundredok/media_feed
   language: en
   contact:
     email: info@200ok.ch
     name: 200ok
-  image_url: http://200ok.ch/media_feed.png
+  image_url: https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png
   keywords:
     - it
     - programming
