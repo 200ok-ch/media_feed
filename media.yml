@@ -2,6 +2,25 @@ sources:
   - https://media.ccc.de/c/32c3
 
 feed:
+  - title: 32c3-7547-en-de-libusb_Maintainer_fail_sd
+    published: Fri, 15 Jan 2016 10:48:28 +0000
+    media_url: http://ftp.fau.de/cdn.media.ccc.de/congress/2015/h264-sd/32c3-7547-en-de-libusb_Maintainer_fail_sd.mp4
+    media_length: 127743217
+    media_type: video/mp4
+    web_url: https://media.ccc.de/v/32c3-7547-libusb_maintainer_fail
+    description: >-
+      In 2010 I was asked by the second maintainer in a row to take over as new
+      maintainer of the libusb project. The first time I had declined. The
+      second time I accepted, and sadly failed. Eventually a hostile fork
+      emerged, with the explicit goal to take over the original project. I will
+      tell you my story, which mistakes I made and what I learned - about
+      independent and corporate contributors in open source projects, about
+      package maintainers in downstream OS distributions, about trolls on the
+      internet, about GitHub Inc. and about myself. The hostile fork? It wasn't
+      merged.
+
+      Tino: True lessons everyone involved in OSS will have to learn eventually.
+
   - title: Beyond your cable modem - How not to do DOCSIS networks
     published: Sat, 09 Jan 2016 14:54:41 +0100
     media_url: http://c3media.vsos.ethz.ch/congress/2015/h264-sd/32c3-7133-en-de-Beyond_your_cable_modem_sd.mp4

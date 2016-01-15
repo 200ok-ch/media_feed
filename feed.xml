@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Sat, 09 Jan 2016 15:01:07 +0100</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 15:01:07 +0100</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 10:54:23 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 10:54:23 +0000</lastBuildDate>
     <managingEditor>
       info@200ok.ch (200ok)
     </managingEditor>
@@ -43,11 +43,30 @@
     
       
       <item>
+        <title>32c3-7547-en-de-libusb_Maintainer_fail_sd</title>
+        <description>In 2010 I was asked by the second maintainer in a row to take over as new maintainer of the libusb project. The first time I had declined. The second time I accepted, and sadly failed. Eventually a hostile fork emerged, with the explicit goal to take over the original project. I will tell you my story, which mistakes I made and what I learned - about independent and corporate contributors in open source projects, about package maintainers in downstream OS distributions, about trolls on the internet, about GitHub Inc. and about myself. The hostile fork? It wasn&#39;t merged.
+Tino: True lessons everyone involved in OSS will have to learn eventually.</description>
+        <link>https://media.ccc.de/v/32c3-7547-libusb_maintainer_fail</link>
+        <guid isPermaLink="true">https://media.ccc.de/v/32c3-7547-libusb_maintainer_fail</guid>
+        <pubDate>Fri, 15 Jan 2016 10:48:28 +0000</pubDate>
+        <itunes:subtitle>32c3-7547-en-de-libusb_Maintainer_fail_sd</itunes:subtitle>
+        <itunes:summary></itunes:summary>
+        <itunes:author></itunes:author>
+        <itunes:image href="https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png"/>
+        <itunes:explicit>Yes</itunes:explicit>
+        <itunes:keywords>it,programming,software,hardware,security</itunes:keywords>
+        <enclosure url="http://ftp.fau.de/cdn.media.ccc.de/congress/2015/h264-sd/32c3-7547-en-de-libusb_Maintainer_fail_sd.mp4"
+                   length="127743217"
+                   type="video/mp4"/>
+      </item>
+    
+      
+      <item>
         <title>Beyond your cable modem - How not to do DOCSIS networks</title>
         <description>Did you ever want to have access to a few hundred thousand network end points? Or a few hundred thousand phone numbers? A short look behind the curtains of how not to do network security.
 Alain: Very fun and at the same time horrific talk. Basically everyone on a cable network can easily gain access to a root shell on everyone elses cable modem. Not only that, you can also listen in to other peoples VOIP calls or call from somebody eleses number.
-Horrifying, because it's so simple and extremely powerful.
-In the questions, it's also very interesting at 30:15 when he's being asked an easy question and the guy gets very uneasy and says: &quot;The problem is the law. I cannot tell you about ....&quot;.
+Horrifying, because it&#39;s so simple and extremely powerful.
+In the questions, it&#39;s also very interesting at 30:15 when he&#39;s being asked an easy question and the guy gets very uneasy and says: &quot;The problem is the law. I cannot tell you about ....&quot;.
 Phil: Best presentation of 32c3 so far!</description>
         <link>https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem</link>
         <guid isPermaLink="true">https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem</guid>
@@ -67,7 +86,7 @@ Phil: Best presentation of 32c3 so far!</description>
       <item>
         <title>What does Big Brother see, while he is watching?</title>
         <description>Alain: Simon Menner shows a great collection of pictures from the best treasure trove that is accessible to us from surveillance states. He tells a good story on how absurd and dangerous surveillance is at the same time.
-It's also curious to hear that only footage from eastern countries is available, the BND only released 14 totally irrelevant pictures of all of the cold war (something like a cork screw...). So of course the easter states totally look illegal compared to just nothing.</description>
+It&#39;s also curious to hear that only footage from eastern countries is available, the BND only released 14 totally irrelevant pictures of all of the cold war (something like a cork screw...). So of course the easter states totally look illegal compared to just nothing.</description>
         <link>https://events.ccc.de/congress/2015/Fahrplan/events/7209.html</link>
         <guid isPermaLink="true">https://events.ccc.de/congress/2015/Fahrplan/events/7209.html</guid>
         <pubDate>Sat, 09 Jan 2016 14:21:28 +0100></pubDate>
@@ -85,7 +104,7 @@ It's also curious to hear that only footage from eastern countries is available,
       
       <item>
         <title>Intelexit</title>
-        <description>Giant billboard vans, drone-operated leaflet drops over an NSA building and calls to secret service agents, Intelexit explores all routes to reach out to secret service agents and convince them to follow their conscience and quit their jobs. We will take a look at the highlights of the campaign from 2015 and what's around the corner for 2016.
+        <description>Giant billboard vans, drone-operated leaflet drops over an NSA building and calls to secret service agents, Intelexit explores all routes to reach out to secret service agents and convince them to follow their conscience and quit their jobs. We will take a look at the highlights of the campaign from 2015 and what&#39;s around the corner for 2016.
 phil: Performed by the same woman who did the Google Nest talk on Republica 2014.</description>
         <link>https://media.ccc.de/v/32c3-7426-intelexit</link>
         <guid isPermaLink="true">https://media.ccc.de/v/32c3-7426-intelexit</guid>
