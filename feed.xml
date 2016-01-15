@@ -8,8 +8,8 @@
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <language>en</language>
     <generator>media feed build script</generator>
-    <pubDate>Fri, 15 Jan 2016 10:54:23 +0000</pubDate>
-    <lastBuildDate>Fri, 15 Jan 2016 10:54:23 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 10:58:58 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 10:58:58 +0000</lastBuildDate>
     <managingEditor>
       info@200ok.ch (200ok)
     </managingEditor>
@@ -43,13 +43,13 @@
     
       
       <item>
-        <title>32c3-7547-en-de-libusb_Maintainer_fail_sd</title>
+        <title>libusb Maintainer fail - How I failed to run an open source project</title>
         <description>In 2010 I was asked by the second maintainer in a row to take over as new maintainer of the libusb project. The first time I had declined. The second time I accepted, and sadly failed. Eventually a hostile fork emerged, with the explicit goal to take over the original project. I will tell you my story, which mistakes I made and what I learned - about independent and corporate contributors in open source projects, about package maintainers in downstream OS distributions, about trolls on the internet, about GitHub Inc. and about myself. The hostile fork? It wasn&#39;t merged.
 Tino: True lessons everyone involved in OSS will have to learn eventually.</description>
         <link>https://media.ccc.de/v/32c3-7547-libusb_maintainer_fail</link>
         <guid isPermaLink="true">https://media.ccc.de/v/32c3-7547-libusb_maintainer_fail</guid>
         <pubDate>Fri, 15 Jan 2016 10:48:28 +0000</pubDate>
-        <itunes:subtitle>32c3-7547-en-de-libusb_Maintainer_fail_sd</itunes:subtitle>
+        <itunes:subtitle>libusb Maintainer fail - How I failed to run an open source project</itunes:subtitle>
         <itunes:summary></itunes:summary>
         <itunes:author></itunes:author>
         <itunes:image href="https://raw.githubusercontent.com/twohundredok/media_feed/master/media_feed.png"/>
