@@ -1,5 +1,6 @@
 sources:
   - https://media.ccc.de/c/32c3
+  - https://media.ccc.de/c/33c3
 
 feed:
   - title: libusb Maintainer fail - How I failed to run an open source project
@@ -102,6 +103,153 @@ feed:
 
       phil: Frightening bit flipping. Very in depth.
 
+  - title: '33C3 Opening Ceremony'
+    published: Wed, 28 Dec 2016 22:36:02 GMT
+    subtitle: ''
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8429-eng-deu-fra-33C3_Opening_Ceremony_hd.mp4
+    media_type: video/mp4
+    media_length: 195895308
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8429.html 
+    description: >-
+      max: May be not very interesting for people that are not at the conference. Please wash your hands.
+
+  - title: 'The Global Assassination Grid'
+    published: Wed, 28 Dec 2016 22:43:00 GMT
+    subtitle: 'The Infrastructure and People behind Drone Killings'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8425-eng-deu-fra-The_Global_Assassination_Grid_hd.mp4
+    media_type: video/mp4
+    media_length: 854994202
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8425.html 
+    description: >-
+       max: Background talk about the power of drones and the system behind it. Presentation is not that strong - maybe mainly since the talk is that emotionally stressful for the presenter. The content is frightening.
+       ccc: Cian has spent a great deal of time thinking about the issues of responsibility in, and how communications technology has been used to distance people from the act of killing. Rising superpowers around the world are working day and night to build the next stealth drone that can penetrate air defense systems. The automation of target selection processes, navigation and control are incentivized by the vulnerability posed by the signals drones rely upon to operate.
+       
+       A drone is merely a networked platform that moves across a grid, much like a mouse. It’s „mind“ is distributed among dozens of individuals located around the globe, controlling separate parts of the the overall mission using data derived from surveillance, and processed using algorithms that may or may not reflect the reality on the ground. Cian challenges the common notion that drones are the most effective tool for combatting terrorism and seeks to explain why this is so, as well as how mistakes happen. The automation of these processes will further take the responsibility out of the hands of individuals and disperse them further. This calls for a new level of ethical considerations and accountability mechanisms to be developed.
+
+  - title: 'Bootstraping a slightly more secure laptop'
+    published: Wed, 28 Dec 2016 22:46:21 GMT
+    subtitle: ''
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8314-eng-deu-fra-Bootstraping_a_slightly_more_secure_laptop_hd.mp4
+    media_type: video/mp4
+    media_length: 472285076
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8314.html 
+    description: >-
+       max: Detailed explanation of heads - a stateful secure linux. Very techical. May be of interest if you try to defend state sponsored actors are very into IT-Security.
+       ccc: Heads builds on several years of firmware security research focused on firmware vulnerabilities ("Thunderstrike: EFI bootkits for Apple Macbooks" and "Thunderstrike 2") as well as many other CCC talks ("Hardening hardware and choosing a #goodBIOS", "Beyond anti evil maid", "Towards (reasonably) trustworthy x86 laptops", etc.) and combines these ideas into a single system.
+       
+       It is not just another Linux distribution - it combines physical hardening and flash security features with custom Coreboot firmware and a Linux boot loader in ROM.  This moves the root of trust into the write-protected ROM and prevents further modifications to the bootup code.  Controlling the first instruction the CPU executes allows Heads to measure every step of the boot process into the TPM, which makes it possible to attest to the user or a remote system that the firmware has not been tampered with.  While modern Intel CPUs require binary blobs to boot, these non-Free components are included in the measurements and are at least guaranteed to be unchanging.  Once the system is in a known good state, the TPM is used as a hardware key storage to decrypt the drive.
+       
+       Additionally, the hypervisor, kernel and initrd images are signed by keys controlled by the user, and the OS uses a signed, immutable root filesystem so that any software exploits that attempt to gain persistence will be detected.  While all of these firmware and software changes don't secure the system against every possible attack vector, they address several classes of attacks against the boot process and physical hardware that have been neglected in traditional installations, hopefully raising the difficulty beyond what most attackers are willing to spend. 
+
+  - title: 'Law Enforcement Are Hacking the Planet'
+    published: Wed, 28 Dec 2016 22:50:42 GMT
+    subtitle: 'How the FBI and local cops are hacking computers outside of their jurisdiction.'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8018-eng-deu-fra-Law_Enforcement_Are_Hacking_the_Planet_hd.mp4
+    media_type: video/mp4
+    media_length: 312872139
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8018.html 
+    description: >-
+       max: Anecdotical stories how the FBI was involved into global hacking of suspects (and may run child porn servers therefore). Well presented but without any possible solution how international internet crime shall be handled.
+       ccc: But this is only one case in the growing trend of law enforcement agencies reaching outside of their own country and hacking criminals suspects abroad, bringing up urgent questions of legality, jurisdiction, and proportionately in the digital age.
+       
+       For the past year, I have investigated law enforcement’s international use of hacking tools. As well as finding which countries the FBI remotely searched computers in, I uncovered another operation led by a local Australian police department, which targeted individuals in the United States – clearly outside of the agency’s jurisdiction.
+       
+       Because many criminals suspects have moved onto the so-called dark web, law enforcement have no idea where the computers they are hacking are actually located. This worrying shoot-malware-ask-questions later approach has seen only minimal attention from policy makers and legal experts, and is likely to become more widespread. 
+
+  - title: 'Pegasus internals'
+    published: Wed, 28 Dec 2016 23:16:54 GMT
+    subtitle: 'Technical Teardown of the Pegasus malware and Trident exploit chain'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7901-eng-deu-Pegasus_internals_hd.mp4
+    media_type: video/mp4
+    media_length: 215443006
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7901.html 
+    description: >-
+       max: Extremly technical - I mean really deep into C source code. To be honest: I fell asleep.
+       ccc: 1. Introduction to the talk and the background of the speaker
+       2. Technical Analysis
+       In the technical analysis section we will cover in-depth the three stages of this attack including the exploits and the payloads used at each stage. We will detail the obfuscation and encryption techniques the developers used to hide the payloads. We will also examine the 0-day vulnerabilities, called Trident, that we found, which allow for a remote jailbreak on the latest versions of iOS (up to 9.3.4) via Safari.
+       * 0-days (responsibly disclosed to Apple)
+       * Malware techniques 
+       * Obfuscation and encryption techniques 
+       The technical analysis will continue and detail the software that gets installed including what it was designed to collect, which includes texts, emails, chats, calendars, and voice calls from apps including Viber, WhatsApp, Skype, SMS, iMessage, Facebook, WeChat, Viber, WhatsApp, Telegram, Vkontakte, Odnoklassniki, Line, Mail.Ru Agent, Tango, Pegasus, Kakao Talk, and more.
+       * Application Hooking
+       * Use of SIP for exfiltration
+       * Historical Analysis of jailbreaks
+       We will detail how the jailbreak techniques used by this software have changed and adapted to the changing security mechanisms added to iOS over the years.
+       4. Summary and conclusions
+        
+  - title: 'What's It Doing Now?'
+    published: Thu, 29 Dec 2016 03:00:09 GMT
+    subtitle: 'The Role of Automation Dependency in Aviation Accidents'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8033-eng-deu-fra-Whats_It_Doing_Now_hd.mp4
+    media_type: video/mp4
+    media_length: 306436382
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html 
+    description: >-
+       max: Stuff you might not have thought about yet. No you can not turn it of and on again in the air. Impressive how defaults might kill people. Enriching if you have the time for it but no must see.
+       ccc: "Pilot Error" is often publicly reported as "the cause" of an accident whenever a member of the flight crew did something which had consequences for the chain of events. We maintain that there is never a single cause, and every mistake a pilot may make has causes, and other factors contributing to it. We use the notion of a "necessary causal factor" to investigate the causes of accidents, and almost invariable there is a combination of both technical and human causal factors.
+       
+       I will look in some detail at accidents in which a combination of a technical problem, misleading or missing indications, and inappropriate (but often understandable) crew actions contributed to an accident, and also some in which unprecedented actions of the human crew turned a problem with potentially fatal consequences into a survivable accident.
+       
+       Automation in modern airliners has become so reliable and useful that it may be argued that it leads to a deterioration of hand-flying skills and, perhaps more importantly, of decision-making skills.
+       
+       Sample accident cases will include Asiana Flight 214, Spanair Flight 5022, Turkish Flight 1951, TAM Flight 3054 and others. I will also briefly touch on technical and ethical problems with self-driving vehicles highlighted by the recent Tesla crash as well as increasing automation in General Aviation and its consequences.
+       
+       In conclusion I will look at ways to improve safety and maintain the very high standard currently achieved in commercial aviation. 
+
+  - title: 'Lockpicking in the IoT'
+    published: Thu, 29 Dec 2016 03:03:31 GMT
+    subtitle: '...or why adding BTLE to a device sometimes isn't smart at all'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8019-eng-deu-fra-Lockpicking_in_the_IoT_hd.mp4
+    media_type: video/mp4
+    media_length: 600699463
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8019.html 
+    description: >-
+       max: If you plan to pwn a device this talk might give you just the ideas you need to have in order to know where to start. Very well presented and entertaining.
+
+       ccc: This talk will hand you all the tools you need to go deeply into hacking smart devices. And you should! The only reason a huge bunch of these products doesn't even implement the most basic security mechanisms, might be that we don't hack them enough!
+       
+       We start by looking at the hardware layer, dissecting PCBs and showing which chips are usually used for building those devices. Even if the firmware is read protected they still can be used as nice devboards with unusual pheripherals - if you can't flash it, you don't own it!
+       
+       But you don't always have to get out your JTAG interfaces. The most simple part is intercepting an Apps communication with its servers. We show an easy Man-in-the-middle setup, which on the fly breaks the TLS encryption and lets you read and manipulate the data flowing through. This was enough to completely defeat the restrictions on a locks "share to a friend" feature and of course helps you recover your password...
+       
+       Understanding the API also is the best way to actually OWN your device - giving you the option to replace the vendors cloud service with an own backend. We show how this can be for example used to continue using your bike lock when the kickstarter you got it from goes bankrupt after a presentation about it's bad crypto. Just kidding, they are already notified and working on a patch. 
+       
+       Also going for the wireless interface and sniffing BTLE isn't as difficult as it might sound. Turning a cheap 10 EUR devboard into a sniffer we show how to use Wireshark to dissect the packets going from and to the device and analyze the payload. In some cases this is all what's needed to get the secret key from a single interaction...
+       
+       Finally we will turn into reverse engineers, showing how to decompile an android app and analyze it's inner working or even modify it to your needs. Using this we show, that a quite popular electronic padlock indeed correctly claims to use AES128, but due to a silly key exchange mechanism we can break it by listening to a single opening command. All details of this 0-day attack will be released during the talk - the vendor has been notified in May.
+       
+       Last but not least we will go back for the hardware layer, showing that sometimes even simple things like magnets or shims can be used to defeat $80+ electronic locks in seconds... 
+
+  - title: 'Console Hacking 2016'
+    published: Thu, 29 Dec 2016 03:07:04 GMT
+    subtitle: 'PS4: PC Master Race'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7946-eng-deu-fra-Console_Hacking_2016_hd.mp4
+    media_type: video/mp4
+    media_length: 616230042
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7946.html 
+    description: >-
+       max: Very impressive but also very technical talk about the long way to get linux running on something that is arguable not a PC. If you would like to get into Linux dev or advanced operating systems this might be of interest for you. Otherwise just for some LoLz.
+       ccc: So you have an exploit. You have code execution. Great! But what do you do now?
+       
+       In the past, console homebrew usually focused on bringing up a development environment similar to the one used for commercial games. However, with the increasing complexity of console hardware, it's becoming impractical for a small team of hackers to create a full blown development SDK. Using leaked official SDKs is illegal. What can we do? Well, there's Linux.
+       
+       The PS4 is particularly great for Linux, because it is based on a modified x86 platform and a modified Radeon GPU. That means that once the basic OS port is complete, it can run existing games - even Steam games and other commercial software. But just how similar is the PS4 to a PC? Can you just throw GRUB on it and boot an Ubuntu kernel? Not quite.
+       
+       In this talk we'll cover the PS4 hardware and part of its software environment, and how we reverse engineered enough of it to write Linux drivers and kernel patches. We'll go over how we went from basic code execution to building a 'kexec' function that can boot into Linux from the PS4's FreeBSD-based kernel. We'll reverse engineer the PS4's special hardware, from special PCI interrupt management to the HDMI encoder.  We'll dive deep into the Radeon-based GPU architecture, and we'll share some previously unreleased research and tools of interest to AMD Radeon driver developers and hackers.
+       
+       If you're interested in the strange world of x86 hardware that isn't quite a PC, then this talk is for you. 
+
+  - title: 'Nicht öffentlich.'
+    published: Thu, 29 Dec 2016 03:10:02 GMT
+    subtitle: 'Ein Geheimdienst als Zeuge. Szenen aus dem NSA-Untersuchungsausschuss.'
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8116-deu-eng-fra-Nicht_oeffentlich_hd.mp4
+    media_type: video/mp4
+    media_length: 848139795
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8116.html 
+    description: >-
+       max: Grossartige Inszenierung einiger Szenen aus dem sog. NSA-Untersuchungsausschuss. Mit verschiedenen Ständigen Berichterstattern sehr hochkarätig besetzt. Ein Lehrstück der Demokratie und der Mühen im Umgang mit Geheimdiensten. Definitiv sehenswert auch für Personen aus dem deutschsprachigen Ausland.
+       ccc: Die Inszenierung enthält originale Szenen und Zitate aus dem  Ausschuss, die zeigen, wie mühsam es ist, einen Geheimdienst zu  vernehmen, wie schwer er es dem Parlament macht, ihn zu kontrollieren. Doch sie belegen auch, dass demokratische Aufklärung nicht umsonst  ist, auch wenn sie manchmal nur aus Versehen passiert. Oder wenn den Aufklärern statt einer verschiedene Wahrheiten zu einem Thema präsentiert werden. 
 
 template: template_rss.xml.erb
 target: feed.xml
@@ -123,6 +271,8 @@ meta:
     - software
     - hardware
     - security
+    - society
   categories:
     - Technology
+    - Society
     - Educational Technology
