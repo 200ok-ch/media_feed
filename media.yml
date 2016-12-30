@@ -211,7 +211,8 @@ feed:
     published: Wed, 28 Dec 2016 00:00:00 +0100
     speakers: anna, Kai Biermann, Felix Betzin, Elisabeth Pleß, Johannes Wolf, vieuxrenard
     subtitle: "Ein Geheimdienst als Zeuge. Szenen aus dem NSA-Untersuchungsausschuss."
-    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8116-deu-Nicht_oeffentlich.mp4 media_type: 563085312
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8116-deu-Nicht_oeffentlich.mp4 
+    media_type: 563085312
     media_length: video/mp4
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8116.html 
     description: >-
