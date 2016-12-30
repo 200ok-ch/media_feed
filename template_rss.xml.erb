@@ -44,7 +44,7 @@
         <guid isPermaLink="true"><%= item.web_url %></guid>
         <pubDate><%= item.published %></pubDate>
         <itunes:subtitle><%= item.title %></itunes:subtitle>
-        <itunes:summary></itunes:summary>
+        <itunes:summary><%= CGI.escapeHTML(item.description) %></itunes:summary>
         <itunes:author><%= item.speakers %></itunes:author>
         <itunes:image href="<%= data.meta.image_url %>"/>
         <itunes:explicit>Yes</itunes:explicit>
