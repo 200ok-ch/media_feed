@@ -88,9 +88,9 @@ def find_talk(fahrplan, media, query):
                         exit()
 
                     print('')
-                    print("  - title: '%s'" % (title))
+                    print("  - title: \"%s\"" % (title))
                     print("    published: %s" % (pubDate))
-                    print("    subtitle: '%s'" % (sub))
+                    print("    subtitle: \"%s\"" % (sub))
                     print("    media_url: %s" % (media_url))
                     print("    media_type: %s" % (media_type))
                     print("    media_length: %s" % (media_length))
