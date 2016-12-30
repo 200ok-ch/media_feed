@@ -51,6 +51,14 @@ def find_talk(fahrplan, media, query):
                 if not quiet: 
                     print("Element has no subtitle")
 
+            try:
+                speakers = ", ".join([speaker.childNodes[0].data for speaker in par.getElementsByTagName("persons")[0].getElementsByTagName("person")])
+
+            except:
+                speakers = ""
+                if not quiet:
+                    print("Element has no speakers")
+
             try: 
                 desc = par.getElementsByTagName("description")[0].childNodes[0].data
             except: 
@@ -90,6 +98,7 @@ def find_talk(fahrplan, media, query):
                     print('')
                     print("  - title: \"%s\"" % (title))
                     print("    published: %s" % (pubDate))
+                    print("    speakers: %s" % (speakers))
                     print("    subtitle: \"%s\"" % (sub))
                     print("    media_url: %s" % (media_url))
                     print("    media_type: %s" % (media_type))
@@ -116,13 +125,13 @@ def print_desc(desc):
 args = sys.argv
 http = urllib3.PoolManager()
 
-parser = argparse.ArgumentParser(description='Search for talks in CCC events')
+parser = argparse.ArgumentParser(description='Search for talks in CCC events and generate media yml syntax for it.')
 
 parser.add_argument('query', metavar='<query string>', type=str, help='The search string')
 parser.add_argument('-q', '--quiet', dest='quiet', action='store_true', help='Disable optional output')
-parser.add_argument('-l', '--long', dest='long_desc', action='store_true', help='Print long description from Fahrplan')
-parser.add_argument('-y', '--year', dest='year', type=str, default="2016", help='Year to search in, defaults to 2016')
-parser.add_argument('-c', '--comment', dest='custom_comment', type=str, default="", help='Custom comment to add to description')
+parser.add_argument('-l', '--long', dest='long_desc', action='store_true', help='Print long description from Fahrplan instead of short descriptions from CCC media feed.')
+parser.add_argument('-y', '--year', metavar='year', dest='year', type=str, default="2016", help='Year to search (currently 2014, 2015 and 2016 are supported). Defaults to 2016.')
+parser.add_argument('-c', '--comment', metavar='text', dest='custom_comment', type=str, default="", help='Custom comment to add to the description.')
 
 args = parser.parse_args()
 
