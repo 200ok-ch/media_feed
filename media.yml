@@ -103,19 +103,6 @@ feed:
 
       phil: Frightening bit flipping. Very in depth.
 
-  - title: "33C3 Opening Ceremony"
-    published: Tue, 27 Dec 2016 00:00:00 +0100
-    speakers: anna, elisa
-    subtitle: ""
-    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8429-eng-33C3_Opening_Ceremony.mp4
-    media_type: 127926272
-    media_length: video/mp4
-    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8429.html 
-    description: >-
-       
-       about this event: https://c3voc.de
-       max: May be not very interesting for people that are not at the conference. Please wash your hands. 
-
   - title: "The Global Assassination Grid"
     published: Tue, 27 Dec 2016 00:00:00 +0100
     speakers: Cian Westmoreland
@@ -126,7 +113,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8425.html 
     description: >-
        As they say in the Air Force, ‚No comms no bombs‘,  – A technician’s insight into the invisible networks governing military drones and the quest for accountability
-       about this event: https://c3voc.de
        max: Background talk about the power of drones and the system behind it. Presentation is not that strong - maybe mainly since the talk is that emotionally stressful for the presenter. The content is frightening. 
 
   - title: "Bootstraping a slightly more secure laptop"
@@ -139,7 +125,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8314.html 
     description: >-
        Heads is an open source custom firmware and OS configuration for laptops and servers that aims to provide slightly better physical security and protection for data on the system. Unlike Tails, which aims to be a stateless OS that leaves no trace on the computer of its presence, Heads is intended for the case where you need to store data and state on the computer. It targets specific models of commodity hardware and takes advantage of lessons learned from several years of vulnerability research. This talk provides a high level overview of Heads, a demo of installing it on a Thinkpad and a tour of some of the attacks that it protects against.
-       about this event: https://c3voc.de
        max: Detailed explanation of heads - a stateful secure linux. Very techical. May be of interest if you try to defend state sponsored actors are very into IT-Security. 
 
   - title: "Law Enforcement Are Hacking the Planet"
@@ -152,7 +137,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8018.html 
     description: >-
        In early 2015, the Federal Bureau of Investigation hacked computers in Austria, Denmark, Chile, Colombia, Greece, and likely the United Kingdom and Turkey too. In all, the agency used a Tor Browser exploit to target over 4000 computers spread across the world based on a single, arguably illegal warrant.
-       about this event: https://c3voc.de
        max: Anecdotical stories how the FBI was involved into global hacking of suspects (and may run child porn servers therefore). Well presented but without any possible solution how international internet crime shall be handled. 
 
   - title: "Pegasus internals"
@@ -165,7 +149,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7901.html 
     description: >-
        This talk will take an in-depth look at the technical capabilities and vulnerabilities used by Pegasus. We will focus on Pegasus’s features and the exploit chain Pegasus used called Trident. Attendees will learn about Pegasus’s use of 0-days, obfuscation, encryption, function hooking, and its ability to go unnoticed. We will present our detailed technical analysis that covers each payload stage of Pegasus including its exploit chain and the various 0-day vulnerabilities that the toolkit was using to jailbreak a device. After this talk attendees will have learned all of the technical details about Pegasus and Trident and how the vulnerabilities we found were patched.
-       about this event: https://c3voc.de
        max: Extremly technical - I mean really deep into C source code. To be honest: I fell asleep. 
 
   - title: "What's It Doing Now?"
@@ -178,7 +161,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8033.html 
     description: >-
        Legend has it that most airline pilots will at one time have uttered the sentence "What's it Doing now?", whenever the autopilot or one of its related systems did something unexpected. I will be exploring some high-profile accidents in which wrong expectations of automation behaviour contributed to the outcome.
-       about this event: https://c3voc.de
        max: Stuff you might not have thought about yet. No you can not turn it of and on again in the air. Impressive how defaults might kill people. Enriching if you have the time for it but no must see. 
 
   - title: "Lockpicking in the IoT"
@@ -191,7 +173,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8019.html 
     description: >-
        "Smart" devices using BTLE, a mobile phone and the Internet are becoming more and more popular. We will be using mechanical and electronic hardware attacks, TLS MitM, BTLE sniffing and App decompilation to show why those devices and their manufacturers aren't always that smart after all. And that even AES128 on top of the BTLE layer doesn't have to mean "unbreakable". Our main target will be electronic locks, but the methods shown apply to many other smart devices as well...
-       about this event: https://c3voc.de
        max: If you plan to pwn a device this talk might give you just the ideas you need to have in order to know where to start. Very well presented and entertaining. 
 
   - title: "Console Hacking 2016"
@@ -204,7 +185,6 @@ feed:
     web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7946.html 
     description: >-
        Last year, we demonstrated Linux running on the PS4 in a lightning talk - presented on the PS4 itself. But how did we do it? In a departure from previous Console Hacking talks focusing on security, this year we're going to focus on the PS4 hardware, what makes it different from a PC, and how we reverse engineered it enough to get a full-blown Linux distro running on it, complete with 3D acceleration.
-       about this event: https://c3voc.de
        max: Very impressive but also very technical talk about the long way to get linux running on something that is arguable not a PC. If you would like to get into Linux dev or advanced operating systems this might be of interest for you. Otherwise just for some LoLz. 
 
   - title: "Nicht öffentlich."
@@ -218,9 +198,236 @@ feed:
     description: >-
        Der NSA-Untersuchungsausschuss im Bundestag soll aufklären, was die NSA in Deutschland tut und wie deutsche Geheimdienste in diese Aktivitäten verwickelt sind. Fast wie in einer Gerichtsverhandlung – doch es gibt eine Besonderheit: Der Zeuge ist der BND, ein Geheimdienst. Und der tut alles dafür, nichts zu verraten.
        
-       
-       about this event: https://c3voc.de
        max: Grossartige Inszenierung einiger Szenen aus dem sog. NSA-Untersuchungsausschuss. Mit verschiedenen Ständigen Berichterstattern sehr hochkarätig besetzt. Ein Lehrstück der Demokratie und der Mühen im Umgang mit Geheimdiensten. Definitiv sehenswert auch für Personen aus dem deutschsprachigen Ausland. 
+
+  - title: "Recount 2016: An Uninvited Security Audit of the U.S. Presidential Election"
+    published: Wed, 28 Dec 2016 14:30:00 +0100
+    speakers: Matt  Bernhard, J. Alex Halderman
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8074-eng-Recount_2016_An_Uninvited_Security_Audit_of_the_US_Presidential_Election.mp4
+    media_type: 514850816
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8074.html 
+    description: >-
+      The 2016 U.S. presidential election was preceded by unprecedented cyberattacks and produced a result that surprised many people in the U.S. and abroad.  Was it hacked?  To find out, we teamed up with scientists and lawyers from around the country&mdash;and a presidential candidate&mdash;to initiate the first presidential election recounts motivated primarily by e-voting security concerns.  In this talk, we will explain how the recounts took place, what we learned about the integrity of the election, and what needs to change to ensure that future U.S. elections are secure.
+      max: Very well presented entertaining overview why election computers are no good idea in general. No particular interesting facts for people that followed the debate.
+
+  - title: "Die Sprache der Populisten"
+    published: Wed, 28 Dec 2016 16:00:00 +0100
+    speakers: Martin Haase/maha
+    subtitle: "Wie politische 'Gewissheiten' sprachlich konstruiert werden"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8037-deu-Die_Sprache_der_Populisten.mp4
+    media_type: 646971392
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8037.html 
+    description: >-
+      Mit dem Erstarken der Rechtspopulisten (nicht nur in Deutschland) werden populistische Positionen immer häufiger hingenommen, obwohl es sich dabei um vermeintliche "Gewissenheiten" handelt, die bei näherer Betrachtung inakzeptabel sind. Solche Positionen beruhen nicht auf einer nachvollziehbaren Argumentation, sondern auf sprachlich-rhetorischen Tricks, die im Grunde leicht zu durchschauen sind, denen jedoch immer mehr Menschen auf den Leim gehen. Dieser Vortrag soll zeigen, welche Tricks das sind und wie Populisten demaskiert werden können. Dabei wird deutlich werden, dass nicht nur eine Partei für populistische Parolen anfällig ist.
+      max: Sehenswert wie immer. Der alljährliche Talk über die deutsche Sprache. Lustiger aufgrund von praktischen Beispielen. Relativ klar Richtung Deutschland orientiert, da Rechtspopulisten wie die AFD detailiert betrachtet werden.
+
+  - title: "SpiegelMining – Reverse Engineering von Spiegel-Online"
+    published: Wed, 28 Dec 2016 21:45:00 +0100
+    speakers: David Kriesel
+    subtitle: "Wer denkt, Vorratsdatenspeicherungen und „Big Data“ sind harmlos, der kriegt hier eine Demo an Spiegel-Online."
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7912-deu-SpiegelMining_-_Reverse_Engineering_von_Spiegel-Online.mp4
+    media_type: 379584512
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7912.html 
+    description: >-
+      Seit Mitte 2014 hat David fast 100.000 Artikel von Spiegel-Online systematisch gespeichert. Diese Datenmasse wird er in einem bunten Vortrag vorstellen und erforschen.
+      max: Eine der klaren Empfehlungen dieses Congress. David Kriesel (der Mann der vor zwei Jahren aufzeigte warum wir von unseren Scannern belogen werden) stellt mit seiner sehr angenehmen Art einen sehr speziellen Datenreichtum vor. Schöne Bilder, kleine Einführung in die Datenaufbereitung und ihre Macht.
+
+  - title: "Durchmarsch von Rechts"
+    published: Wed, 28 Dec 2016 23:00:00 +0100
+    speakers: Friedrich Burschel
+    subtitle: "...und was wir dagegen tun können"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8439-deu-Durchmarsch_von_Rechts.mp4
+    media_type: 564133888
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8439.html 
+    description: >-
+      Seit einigen Jahren formieren sich am rechten Rand der Gesellschaft explosionsartig neue rassistische, völkisch-nationalistische und offen nazistische Strömungen, Gruppen und Parteien. Einen erschreckenden Verstärker findet das neue braune Getöse in den sozialen Medien und sein Resonanzraum reicht inzwischen bis weit in die Mitte der Gesellschaft.
+      Teil des Problems sind institutioneller Rassismus in den Behörden und unkontrollierbare Geheimdienste, die den Mob gewähren lassen: Dafür bietet der NSU-Komplex ein erschütterndes Beispiel. Vor dem neuen, sehr lauten, in der Tendenz aber auch gewalttätigen und terroristischen Phänomen rechter Formierung stehen Linke und bürgerliche Mitte ziemlich verdattert und hilflos. 
+      Jetzt kommt es darauf an, diese Hilflosigkeit zu überwinden, das Geschehen zu analysieren und sich Gegenstrategien einfallen zu lassen. Das ist „unser“ Job. 
+      max: Ein sehr besonnen vorgetragener Talk von einem linken Vordenker. Keine zwingende Empfehlung, spannend aber nicht umwerfend.
+
+  - title: "Eine kleine Geschichte der Parlamentsschlägerei"
+    published: Thu, 29 Dec 2016 00:15:00 +0100
+    speakers: Joachim Schautenbach, Pia Fortunata
+    subtitle: "Schlagende Argumente, fliegende Fäuste"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8021-deu-Eine_kleine_Geschichte_der_Parlamentsschlaegerei.mp4
+    media_type: 493879296
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8021.html 
+    description: >-
+      Du findest Parlamentsdebatten todlangweilig? Bei Phoenix TV schläfst du ein? Politischer Kampf klingt für dich nur nach Geschichtsbuch? Unsympathische Abgeordnete in Parlamenten wecken bei Dir Gewaltphantasien?  Wir haben die Lösung für all diese Probleme: Internationale Parlaments-Schlägereien!  Die beiden Vortragenden betreiben mit großer Freude ein Fachblog für diese Form der handfesten parlamentarischen Auseinandersetzung. In sieben Jahren haben sie über 100 Videos gesammelt, wie Abgeordnete raufen, schlagen, treten - und so manches Inventar zur Waffe umfunktionieren.  
+      max: Wird als 'kurzweiliger Abend-Vortrag' beschrieben und das trifft auf jeden Fall zu! Typischer Congress Abendvortrag. Lustig und entspannend.
+
+  - title: "Fnord-Jahresrückblick"
+    published: Thu, 29 Dec 2016 00:45:00 +0100
+    speakers: Fefe, frank
+    subtitle: "Wir helfen euch, die Fnords zu sehen!"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7960-deu-Fnord-Jahresrueckblick.mp4
+    media_type: 665845760
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7960.html 
+    description: >-
+      Lehnen Sie sich zurück, bringen Sie die Poppfolie in Stellung, tragen Sie die Schwielencreme gegen Facepalm-Blutergüsse auf der Stirn auf, brechen Sie das Popcorn an und genießen Sie die lockere Abendrevue zum Jahr 2016!   
+      Wenn mal wieder der Zensor pinkeln war, wenn DAMIT ja wohl NIEMAND rechnen konnte, wenn es um demokratisch legitimiertes Baumanagement oder um Stahlbälle geht, dann ist es wieder an der Zeit für eine lockere Abendshow mit den High- und Lowlights des Jahres.
+      max: Fnord ein Format das man liebt oder hasst. Besser als die vergangenen Jahre (auch aufgrund einiger lustiger Aktivonen abseits der Bühne.
+
+  - title: "Dissecting modern (3G/4G) cellular modems"
+    published: Thu, 29 Dec 2016 14:00:00 +0100
+    speakers: LaForge, holger
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8151-eng-Dissecting_modern_3G_4G_cellular_modems.mp4
+    media_type: 379584512
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8151.html 
+    description: >-
+      Let's have a detailed look at some modern 3G/4G cellular modems and see what we can find out about their internals using undocumented debug interfaces and software or hardware based hacking techniques.
+      max: Very detailed, technical talk on the topic. Noteworthy from a GPL perspective. I fell asleep to be honest...
+
+  - title: "Technologien für und wider Digitale Souveränität"
+    published: Thu, 29 Dec 2016 17:15:00 +0100
+    speakers: ruedi, vgrass, Prof. Stefan Lucks
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8097-deu-Technologien_fuer_und_wider_Digitale_Souveraenitaet.mp4
+    media_type: 633339904
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8097.html 
+    description: >-
+      Die weltweite Vernetzung ist die tiefgreifendste Veränderung seit der industriellen Revolution.  
+      In einer Zeit der maßlose Massenüberwachung scheint die Digitale Souveränität den Einsatz privatsphärenfreundlicher Technologien als ein unverzichtbarer Bestandteil von gesellschaftlichen Lösungsversuchen zwingend zu erfordern.  
+      In unserem Beitrag möchten wir hackerrelvante Teilaspekte und Verfahren aus einer Studie für das Bundesministerium für Justiz und Verbraucherschutz vorstellen. Unter anderem sind hier kryptographische Protokolle (z. B.  Blinde Signaturen, Zero-Knowlege Protokolle) und Methoden zur statistischen Auswertung von vertraulichen Daten  (z.B. K-Anonymität, Differentielle Vertraulichkeit) zu nennen.
+      max: Verschiedene Ansätze zum Umgang mit unseren heutzutage unweigerlich produzierten digitalen Spuren. Ich persönlich mag die Art von ruedi sehr und kann den Talk wie jedes Jahr nur empfehlen.
+
+  - title: "An Elevator to the Moon (and back)"
+    published: Thu, 29 Dec 2016 18:30:00 +0100
+    speakers: Markus Landgraf
+    subtitle: "Space Transportation and the Extraterrestrial Imperative"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8407-eng-An_Elevator_to_the_Moon_and_back.mp4
+    media_type: 627048448
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8407.html 
+    description: >-
+      Why is it so hard to go to the Moon? The curse of Newtonian Mechanics and Tsiolkovsky's Rocket Equation force us to build huge rockets to achieve any meaningful activity on the Moon. There are two strategies to hack the laws of celestial mechanics: making fuel on the Moon and using cables to climb out of the gravity well. Here we focus on the latter, which is the Moon version of the famous space elevator. The difference to an Earth elevator is - anelevator to the Moon's surface is realistic with today's materials. In the talk an introduction to the general problem is given and a starting point for a discussion is given that can easily lead to a sustainable access to the Moon if there is demand to do so.
+      max: You shall watch it if you have no clue about the idea of an space elevator yet. Gives a short introduction and overview on the topic from a very informed perspective. If youre really into this topic I can recommend Tim Pritloves corresponding podcast in "Raumzeit" (german).
+
+  - title: "The Moon and European Space Exploration"
+    published: Thu, 29 Dec 2016 20:30:00 +0100
+    speakers: Jan Wörner
+    subtitle: "Refocusing on the moon as a platform for future deep space missoins"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8406-eng-The_Moon_and_European_Space_Exploration.mp4
+    media_type: 296747008
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8406.html 
+    description: >-
+      Since the early successes of moon missions in the Sixtie, mankind has moved on to the earth orbit and other deep space missions. But interest in the moon as a target has intensified recently as the strategies for future missions are evolving.
+      max: My personal highlight of 33C3 so far. Besides all the problems on earth Jan Wörner, Director General of the European Space Agency, presents a vision for the proceeeding of mankind into space. Great presentation and motivating.
+
+  - title: "Interplanetary Colonization"
+    published: Thu, 29 Dec 2016 21:15:00 +0100
+    speakers: Liz George, Peter Buschkamp
+    subtitle: "the state at the beginning of the 21st Century"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7942-eng-Interplanetary_Colonization.mp4
+    media_type: 238026752
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7942.html 
+    description: >-
+      The long term survival of the human species requires that we become an interplanetary species. But we must answer two big questions: where are we going, and how do we get there? We explore what scientists know (and don’t know) about humanity’s potential future homes both inside and outside the solar system, and then we’ll dive into the technological challenges of (and potential solutions for) getting humans to and colonizing a new planet.
+      max: Well presented, enjoyable to listen to, not mind blowing. 
+
+  - title: "Lasers in the sky (with asteroids)"
+    published: Thu, 29 Dec 2016 22:00:00 +0100
+    speakers: Peter Buschkamp
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7927-eng-Lasers_in_the_sky_with_asteroids.mp4
+    media_type: 256901120
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7927.html 
+    description: >-
+      Today lasers are routinely flown on space and airborne platforms for scientific, military and telecommunication applications. While they make nice special effects in action and sci-fi movies, there are physical boundaries that guide the use of lasers in space and in surface to air/space scenarios. 'SDI' might not be straight forward, but intercepting airborne vehicles or laser based communication to submerged submarines is no longer science fiction. But can we use it for space travel? Lets see.    
+      max: Fun facts about lasers in space. Again Well presented and enjoyable to listen to but not not mind blowing. 
+
+  - title: "Eavesdropping on the Dark Cosmos"
+    published: Thu, 29 Dec 2016 22:45:00 +0100
+    speakers: Simon Barke
+    subtitle: "Dark Matter and Gravitational Waves"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8245-eng-Eavesdropping_on_the_Dark_Cosmos.mp4
+    media_type: 402653184
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8245.html 
+    description: >-
+      Imagine, there is this huge data center but your user privileges allow you to access only 5% of the data. That is the exact same situation physicists face when trying to study the cosmos. 95% of our universe is made out of something that cannot be seen or touched. We generally call this unknown substance "dark matter" / "dark energy". The recent discovery of gravitational waves gives us a handle on the dark cosmos. We can now listen to invisible events in our universe. But there may also be other methods to shed light on the dark side.
+      max: Again nice to see and not bad presented but not overwhelming as most of 33C3's space track, unfortunately.
+
+  - title: "The Universe Is, Like, Seriously Huge"
+    published: Thu, 29 Dec 2016 23:30:00 +0100
+    speakers: Michael Büker
+    subtitle: "Stuff in Space Is Far Away – but How Do We Know?"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-7861-eng-The_Universe_Is_Like_Seriously_Huge.mp4
+    media_type: 238026752
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/7861.html 
+    description: >-
+      On Earth, distances are commonly given in meters and kilometers, and can be measured comfortably with measuring sticks, odometers or optical instruments. But how does that work in space, where machines take years to arrive at other bodies, and distant stars are utterly out of reach?
+      From precise calculations to daring guesstimates, many different techniques and approaches are combined to form what's called the "cosmic distance ladder", giving more or less reasonable estimates of the distances between planets, stars and galaxies.
+      Climb the distance ladder and get to know our place in Space from kilometers to Astronomical Units and light years, all the way to gigaparsecs and the reaches of the known universe.   
+      max: Pretty pictures, gives the impression how tiny we are.
+      
+  - title: "Methodisch inkorrekt!"
+    published: Fri, 30 Dec 2016 00:15:00 +0100
+    speakers: Nicolas Wöhrl, @ReinhardRemfort
+    subtitle: "Die Wissenschaftsgala vom 33C3"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8020-deu-Methodisch_inkorrekt.mp4
+    media_type: 2229272576
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8020.html 
+    description: >-
+      Eigentlich ein Podcast der alle 14 Tage erscheint. Nach dem großen Erfolg auf dem Congress im letzten Jahr wird diesmal eine noch größere Show abgezogen: Experimente, die mal interessant, mal fragwürdig sind. Wissenschaftler, die mal belehrend und mal unzurechnungsfähig sind. Wissenschaftliche Studien, die mal nobelpreisverdächtig und mal zweifelhaft sind. Wissenschaft auf der Showbühne. It works, bitches!   
+
+      Dazu sprechen sie über aktuelle wissenschaftliche Themen. Laaaangweilig! Wer will denn sowas sehen? Unstrukturiert, abschweifend, hoffnungslos subjektiv und immer garantiert methodisch inkorrekt.
+      Wer hat diese Jungs wieder reingelassen?! Nicolas Wöhrl und Reinhard Remfort sind eine Gefahr für Leib und Leben. Unter dem Deckmantel der Wissenschaftskommunikation machen sie auf der Bühne alles das, was sie an der Uni nie gewagt hätten.
+      max: Kurzweilig, extrem lustig mit dem ein oder anderen Bier in der Hand. Unstrukturiert, Chaos und inzeischen ein fester Bestandteil des Kongress.
+
+  - title: "Privatisierung der Rechtsdurchsetzung"
+    published: Fri, 30 Dec 2016 14:30:00 +0100
+    speakers: Markus Beckedahl
+    subtitle: "Was der Anti-Terror-Kampf von der Urheberrechtsdurchsetzung lernen kann"
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8040-deu-Privatisierung_der_Rechtsdurchsetzung.mp4
+    media_type: 244318208
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8040.html 
+    description: >-
+      Im Forum Internet treffen sich seit einem Jahr EU-Vertreter mit Vertretern der großen US-Plattformen, um über freiwillige Kooperationen zu verhandeln. Damit soll der Rechtsstaat umgangen und die Terrorbekämpfung ohne notwendige demokratische Kontrolle teilweise privatisiert werden. 
+      Die Vorgehensweise ist dabei aus der Urheberrechtsdurchsetzung und gescheiterten Handelsabkommen wie ACTA bekannt. Und mit der Hate-Speech-Debatte haben Regierungsvertreter zugleich das richtige Erpressungswerkzeug, um die Plattformen zur Kooperation zu bewegen: Wenn sie nicht mitmachen, haften sie einfach.
+      Der Vortrag möchte über die aktuellen Entwicklungen aufklären und die Parallelen zwischen Anti-Terror-Kampf, Urheberrechtsdurchsetzung und Hate-Speech-Debatte berichten.
+      max: Spannende juristische Bewertung der Forderungen, dass die Plattformanbieter sich um den Inhalt in den Sozialen Medien. Kümmern sollen. Thematisch sehenswert, nicht schlecht vorgetragen.
+
+  - title: "The Ultimate Game Boy Talk"
+    published: Fri, 30 Dec 2016 16:00:00 +0100
+    speakers: Michael Steil
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8029-eng-The_Ultimate_Game_Boy_Talk.mp4
+    media_type: 400556032
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8029.html 
+    description: >-
+      The Nintendo Game Boy was an 8-bit handheld gaming console that competed with the SEGA Game Gear and the Atari Lynx. Compared to its competition, it had very little RAM (8 KB) and no color support (4 shades of gray at 160x144). It was succeeded by the Game Boy Color, which fixed this main shortcoming, but shared the same architecture. During the 14 year life span of the 8 bit Game Boy platform, game programmers kept understanding the hardware better and better, and continued finding new tricks for better graphics effects, such as sprite multiplexing, parallax and palette effects. This talk explains all the hardware details of the Game Boy: The programming model of the 8080/Z80-like LR35902 CPU, the system's sound, timer and I/O functionality, and programming details as well as common tricks involving the graphics processor ("PPU"), which was specifically designed for LCD output. The listener will get a good understanding of 8 bit programming and creative programming on extremely limited hardware, as well as common tricks that can be generalized to other systems. 
+      max: Extremely technical talk about every detail of the Game Boy classic. Interesting for enthusiasts.
+
+  - title: "Security Nightmares 0x11"
+    published: Fri, 30 Dec 2016 17:15:00 +0100
+    speakers: frank, Ron
+    subtitle: ""
+    media_url: http://cdn.media.ccc.de/congress/2016/h264-hd/33c3-8413-deu-Security_Nightmares_0x11.mp4
+    media_type: 522190848
+    media_length: video/mp4
+    web_url: https://fahrplan.events.ccc.de/congress/2016/Fahrplan/events/8413.html 
+    description: >-
+      Wie immer wagen wir den IT-Security-Alptraum-Ausblick auf das Jahr 2017 und darüber hinaus. Denn was wir wirklich wissen wollen, ist ja schließlich: Was kriecht, krabbelt und fliegt in Zukunft auf uns zu und in unseren digitalen Implants herum?
+      Im Zuge von noch mehr Transparenz, Kritik & Selbstkritik und kontinuierlicher nachhaltiger Optimierung aller Prozesse werden wir außerdem frühere Voraussagen hinsichtlich des Eintreffens unserer Weissagungen prüfen.   
+      max: Format so gut oder schlecht wie immer. Entweder man mag es oder nicht. 
 
 template: template_rss.xml.erb
 target: feed.xml
